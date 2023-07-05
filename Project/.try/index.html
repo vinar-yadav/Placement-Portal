@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+    .outer{
+        padding-top: 4%;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+
+    }
+    </style>
+</head>
+<body>
+<div class="outer">
+<div class="box"><img src="assets/img/logo_250.png" height=100px style="height:100px; width:100px ; margin:10px 10px" /></div>
+<div class="box">Dr. BR. Ambedkar </div>
+<div class="box">
+  <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
+        <div class="wrapper over" style="text-align: center;">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Login</button>
+                    <div class="dropdown-content">
+                        <a href="admin/index.php">Admin</a>
+                        <a href="login.php">Student</a>
+                        <a href="login.php">Co-ordinator</a>
+                    </div>
+                </div>
+
+
+
+                <li><a href="contact.php">Contact Us</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Register</button>
+                    <div class="dropdown-content">
+                        <a href="register-candidates.php">Student</a>
+                        <a href="register-company.php">Co-ordinator</a>
+                    </div>
+                </div>
+                <li><a href="faq.php">FAQs</a></li>
+
+            </ul>
+        </div>
+</div>
+</div>
+</body>
+</html> 
